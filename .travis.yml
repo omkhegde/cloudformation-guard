@@ -55,5 +55,5 @@ deploy:
   file: "./cfn-guard-$TRAVIS_OS_NAME-$TRAVIS_TAG.tar.gz"
   on:
     repo: omkhegde/cloudformation-guard
-    branch: omktest
+    tags: true
   skip_cleanup: 'true'
